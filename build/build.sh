@@ -134,7 +134,7 @@ while :; do
           _RUN_STEP_BUILDSCRIPT=true
           _RUN_STEP_PREBUILD=true
           _RUN_STEP_WEBPACK=true
-          _RUN_STEP_DOCS=true
+          #_RUN_STEP_DOCS=true
           _RUN_STEP_GIT_DIFF=true ;;
         -p | --production) MODE="production" ;;
         --debug) DEBUG=true ;;
